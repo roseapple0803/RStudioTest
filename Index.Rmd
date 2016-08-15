@@ -1,0 +1,20 @@
+---
+title: "Test for RStudio"
+author: "Jennifer Yueh"
+date: "Monday, August 15, 2016"
+output: html_document
+---
+
+I am doing a test for RStudio and hopefully I will be able to see it as a website.
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
